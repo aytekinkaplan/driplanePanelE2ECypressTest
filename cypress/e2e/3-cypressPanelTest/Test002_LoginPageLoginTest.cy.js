@@ -3,6 +3,10 @@ import LoginPage from "./pages/login_specs";
 describe('Login UI Page Test', () => {
     let loginPage;
 
+    before(() => {
+        cy.viewport(1280, 720);
+    });
+
     beforeEach(() => {
         loginPage = new LoginPage();
         cy.visit('/login');

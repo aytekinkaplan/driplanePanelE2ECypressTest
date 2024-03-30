@@ -1,9 +1,10 @@
 class LoginPage {
-    constructor() {}
+    constructor() {
+    }
 
     getDriplaneText() {
-        // Consider adding assertion: .should('be.visible').contains('Driplane');
-        return cy.get('h1').contains('Driplane'); // Optional: return for chaining
+        // Assertion eklenebilir: .should('be.visible').contains('Driplane');
+        return cy.get('h1').contains('Driplane'); // İsteğe bağlı: Zincirleme için return
     }
 
     getEmailInput() {
@@ -15,7 +16,7 @@ class LoginPage {
     }
 
     getLoginButton() {
-        return cy.get("ion-button:contains('Login')"); // Optional: return for chaining
+        return cy.contains('Login'); // CSS seçicisi düzeltilmiş
     }
 
     getResetButton() {
@@ -24,6 +25,10 @@ class LoginPage {
 
     getCreateAccountButton() {
         return cy.get('[data-testid="signupButton"]');
+    }
+
+    getForgotPasswordButton() {
+        return cy.get('body > app-root > ion-app > ion-router-outlet > app-login > app-modal-view > ion-content > ion-grid > ion-row > ion-col > div > form > ion-list > ion-item.item.ios.item-lines-default.item-fill-none.in-list.ion-focusable.hydrated > ion-button');
     }
 }
 
