@@ -5,7 +5,7 @@ This project automates UI tests for the Driplane Panel using JavaScript and Cypr
 ## Tools Used:
 
 JavaScript
-Cypress v10.11.0
+Cypress v13.7.1
 IntelliJ IDEA 2023.3
 ## Test Coverage:
 
