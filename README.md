@@ -58,5 +58,4 @@ Localhost
 For detailed project documentation and code comments, please refer to the GitHub repository.
 You can use the following email address for bug reports and contributions: [email address removed]
 ## GitHub Repository:
-
-[[Invalid URL removed]](https://github.com/aytekinkaplan/driplanePanelE2ECypressTest.git)
+https://github.com/aytekinkaplan/driplanePanelE2ECypressTest.git
