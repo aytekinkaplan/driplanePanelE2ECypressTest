@@ -4,38 +4,45 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="72ee3377-3db2-4c27-8d64-11e5d4a623ca" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/cypress/e2e/3-cypressPanelTest/Test004_DashboardPageUITest.cy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cypress/e2e/3-cypressPanelTest/Test005_SettingsPage.cy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cypress/e2e/3-cypressPanelTest/Test006_LiveSection.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cypress/e2e/3-cypressPanelTest/pages/loginprocess.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cypress/e2e/3-cypressPanelTest/pages/settingspage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cypress/fixtures/profile.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cypress/screenshots/2-advanced-examples/cypress_api.cy.js/Cypress APIs -- Cypress.config() -- Get and set configuration options (failed).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cypress/screenshots/2-advanced-examples/misc.cy.js/my-image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cypress/screenshots/3-cypressPanelTest/Test002_LoginPageLoginTest.cy.js/Login UI Page Test -- should be case-sensitive for email and password (failed).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cypress/screenshots/3-cypressPanelTest/Test002_LoginPageLoginTest.cy.js/Login UI Page Test -- should show error for empty email and password (failed).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cypress/screenshots/3-cypressPanelTest/Test002_LoginPageLoginTest.cy.js/Login UI Page Test -- should show error for empty email only (failed).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cypress/screenshots/3-cypressPanelTest/Test004.cy.js/Sh -- should (failed).png" afterDir="false" />
+    <list default="true" id="72ee3377-3db2-4c27-8d64-11e5d4a623ca" name="Changes" comment="New Changes have committed">
+      <change afterPath="$PROJECT_DIR$/cypress/e2e/3-cypressPanelTest/Test006_rightUpperCornerSection.cy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/e2e/3-cypressPanelTest/Test007_LoginTestWithFakeEmailAndFakePass.cy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/e2e/3-cypressPanelTest/pages/rightUpperCornerSection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/fixtures/loginDataScenerios.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/support/login.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/downloads/downloads.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/e2e/1-getting-started/todo.cy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/actions.cy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/aliasing.cy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/assertions.cy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/connectors.cy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/cookies.cy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/cypress_api.cy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/files.cy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/location.cy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/misc.cy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/navigation.cy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/network_requests.cy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/querying.cy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/spies_stubs_clocks.cy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/storage.cy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/traversal.cy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/utilities.cy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/viewport.cy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/waiting.cy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/window.cy.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cypress/e2e/3-cypressPanelTest/Test001_LoginPageUITest.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/3-cypressPanelTest/Test001_LoginPageUITest.cy.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cypress/e2e/3-cypressPanelTest/Test002_LoginPageLoginTest.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/3-cypressPanelTest/Test002_LoginPageLoginTest.cy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/e2e/3-cypressPanelTest/Test003_DriplaneDashboardUITest.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/3-cypressPanelTest/Test003_DriplaneDashboardUITest.cy.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cypress/e2e/3-cypressPanelTest/Test004.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/3-cypressPanelTest/Test004.cy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/e2e/3-cypressPanelTest/Test004.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/e2e/3-cypressPanelTest/Test005.cy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/e2e/3-cypressPanelTest/pages/dashboardpage.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/3-cypressPanelTest/pages/dashboardpage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/e2e/3-cypressPanelTest/Test005_SettingsPage.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/3-cypressPanelTest/Test005_SettingsPage.cy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/e2e/3-cypressPanelTest/Test006_LiveSection.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cypress/e2e/3-cypressPanelTest/pages/login_specs.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/3-cypressPanelTest/pages/login_specs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/fixtures/cypress.dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/fixtures/cypress.dev.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/fixtures/example.json" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/fixtures/example.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cypress/fixtures/loginprocess.json" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/fixtures/loginprocess.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cypress/fixtures/userLoginTest.json" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/fixtures/userLoginTest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/fixtures/users.json" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/fixtures/users.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/integration/login_specs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/screenshots/Test004.cy.js/Sh -- Should log in successfully and navigate to the dashboard (failed).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/fixtures/users.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cypress/support/commands.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/support/commands.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +62,9 @@
   <component name="KubernetesApiProvider"><![CDATA[{
   "isMigrated": true
 }]]></component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
@@ -96,6 +106,7 @@
       <recent name="C:\Users\aonik\IdeaProjects\driplanePanelCypress\cypress\e2e\3-cypressPanelTest" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\aonik\IdeaProjects\driplanePanelCypress\cypress\support" />
       <recent name="C:\Users\aonik\IdeaProjects\driplanePanelCypress\cypress\e2e\3-cypressPanelTest" />
       <recent name="C:\Users\aonik\IdeaProjects\driplanePanelCypress\cypress\e2e\3-cypressPanelTest\pages" />
       <recent name="C:\Users\aonik\IdeaProjects\driplanePanelCypress\cypress\e2e" />
@@ -154,26 +165,37 @@
       <updated>1711292699646</updated>
       <workItem from="1711292700764" duration="3000" />
       <workItem from="1711597098978" duration="11685000" />
-      <workItem from="1711675567011" duration="57067000" />
+      <workItem from="1711675567011" duration="83093000" />
     </task>
+    <task id="LOCAL-00001" summary="New Changes have committed">
+      <option name="closed" value="true" />
+      <created>1711827424215</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1711827424216</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/cypress/e2e/1-getting-started/todo.cy.js</url>
-          <line>35</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="New Changes have committed" />
+    <option name="LAST_COMMIT_MESSAGE" value="New Changes have committed" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

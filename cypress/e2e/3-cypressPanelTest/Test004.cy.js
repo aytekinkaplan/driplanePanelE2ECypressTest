@@ -1,9 +1,10 @@
-import {loginprocess} from "./pages/loginprocess";
+import {loginprocess} from "../../support/commands";
 
 describe('Should log in successfully', () => {
     it('Should log in successfully and navigate to the dashboard', () => {
-        loginprocess("aoniki2018@gmail.com", "Aytekinkaplan1184811@");
-
+        cy.fixture("loginprocess.json").then((data) => {
+            loginprocess(data[0].userEmail, data[0].userPassword, "projects");
+        });
 
     });
 

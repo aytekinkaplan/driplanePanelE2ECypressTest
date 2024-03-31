@@ -19,7 +19,7 @@ describe('Settings Page Navigation After Login', () => {
         cy.viewport(768, 1024);
 
         // 2. Login with valid credentials (replace with your credentials)
-        loginprocess("userEmail", "userPassword");
+        loginprocess("aoniki2018@gmail.com", "Aytekinkaplan1184811@");
 
         // 3. Verify successful login and navigate to dashboard (if applicable)
         dashboardPage.verifyIsOnDashboard(); // Assuming you have a method for this

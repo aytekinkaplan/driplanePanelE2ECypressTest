@@ -1,4 +1,19 @@
 {
-  "email": "aoniki2018@gmail.com",
-  "password": "Aytekinkaplan1184811@"
+  "scenarios": [
+    {
+      "scenario": "Kayıtlı kullanıcı email ve password girişi",
+      "userEmail": "aoniki2018@gmail.com",
+      "password": "Aytekinkaplan1184811@"
+    },
+    {
+      "scenario": "Kayıtlı olmayan kullanıcı email ve password girişi",
+      "userEmail": "aoniki20181@gmail.com",
+      "password": "sifre456"
+    },
+    {
+      "scenario": "Kriterlerlere uymayan email ile geçerli kullanıcı password girişi",
+      "email": "ornek@email.com",
+      "password": "parola789"
+    }
+  ]
 }

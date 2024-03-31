@@ -1,0 +1,24 @@
+{
+  "scenarios": [
+    {
+      "scenario": "Kullanıcı adı ve şifre ile giriş",
+      "username": "kullaniciadi",
+      "password": "sifre123"
+    },
+    {
+      "scenario": "Kullanıcı adı, e-posta veya telefon numarası ile giriş",
+      "usernameOrEmailOrPhone": "kullanici123",
+      "password": "sifre456"
+    },
+    {
+      "scenario": "E-posta ve parola ile giriş",
+      "email": "ornek@email.com",
+      "password": "parola789"
+    },
+    {
+      "scenario": "Telefon numarası ve pin kodu ile giriş",
+      "phoneNumber": "5551234567",
+      "pinCode": "1234"
+    }
+  ]
+}

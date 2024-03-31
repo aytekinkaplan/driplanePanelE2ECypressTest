@@ -30,6 +30,7 @@ class LoginPage {
     getForgotPasswordButton() {
         return cy.get('body > app-root > ion-app > ion-router-outlet > app-login > app-modal-view > ion-content > ion-grid > ion-row > ion-col > div > form > ion-list > ion-item.item.ios.item-lines-default.item-fill-none.in-list.ion-focusable.hydrated > ion-button');
     }
+
 }
 
 export default LoginPage;
