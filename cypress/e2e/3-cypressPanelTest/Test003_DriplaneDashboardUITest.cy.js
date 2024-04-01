@@ -1,35 +1,49 @@
 import LoginPage from "./pages/login_specs";
 import DashboardPage from "./pages/dashboardpage";
-import {loginprocess} from "./pages/loginprocess";
+import { loginprocess } from "./pages/loginprocess";
 
-describe('Testing Login and Dashboard Functionality', () => {
+describe('Login and Dashboard Functionality Tests', () => {
     let loginPage;
     let dashboardPage;
 
-    before('Set up objects for each test', () => {
+    before('Setup Objects for Tests', () => {
+        // Suppressing uncaught exceptions
         cy.on("uncaught:exception", (err, runnable) => {
-            return false
+            return false;
         });
     });
 
-    it('should ', () => {
+    it('should verify login and dashboard functionality', () => {
+        // Initialize DashboardPage
         dashboardPage = new DashboardPage();
 
+        // Perform a login process using provided credentials
         loginprocess("aoniki2018@gmail.com", "Aytekinkaplan1184811@", "projects");
 
-        dashboardPage.getLeftCornerButton().should('exist').click({force: true});
-        dashboardPage.getLeftCornerButton().click({force: true});
+        // Verify and click on the left corner button in the dashboard page
+        dashboardPage.getLeftCornerButton().should('exist').click({ force: true });
 
+        // Verify visibility of dashboard and settings buttons
         dashboardPage.getDashButton().should('be.visible');
         dashboardPage.getSettingsButton().should('be.visible');
 
+        // Set viewport size to 1280x720
         cy.viewport(1280, 720);
-        dashboardPage.getScriptCodeArea().should('be.visible');
 
+        // Verify the visibility of script code area and check if email area contains '@'
+        dashboardPage.getScriptCodeArea().should('be.visible');
         dashboardPage.getEmailArea().should('be.visible').then(() => {
             dashboardPage.getEmailArea().contains('@');
         });
 
+        // Additional comments:
+        // You may add additional assertions or expectations
+        // to validate specific functionalities or elements on the dashboard page.
 
+        // Overall comment:
+        // This test verifies the login process and checks various functionalities on the dashboard.
+        // It ensures that the user can successfully log in and access the dashboard,
+        // and validates the visibility of key elements on the dashboard page.
     });
+
 });

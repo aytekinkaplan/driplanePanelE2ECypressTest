@@ -1,22 +1,26 @@
-export class CustomCommandsLogin {
+import LoginPage from "../e2e/3-cypressPanelTest/pages/login_specs";
+
+export default class CustomCommandsLogin {
+    constructor() {
+        this.loginPage = new LoginPage();
+    }
+
     static visitingPages() {
         return cy.visit("/login");
     }
 
     static userEmail() {
-        return cy.get("[data-testid=\"usernameInput\"] > .input-wrapper > .native-wrapper");
+        const customCommandsLogin = new CustomCommandsLogin();
+        return customCommandsLogin.loginPage.getEmailInput();
     }
 
     static userPassword() {
-        return cy.get("[data-testid=\"passwordInput\"] > .input-wrapper > .native-wrapper");
+        const customCommandsLogin = new CustomCommandsLogin();
+        return customCommandsLogin.loginPage.getPasswordInput();
     }
 
     static loginButton() {
-        return cy.get("ion-button:contains('Login')").click();
+        const customCommandsLogin = new CustomCommandsLogin();
+        return customCommandsLogin.loginPage.getLoginButton();
     }
-
-    static loginPrecessisSuccess() {
-        return cy.url().should("include", "/projects");
-    }
-
 }

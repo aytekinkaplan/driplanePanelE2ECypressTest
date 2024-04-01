@@ -1,9 +1,13 @@
-import {CustomCommandsLogin} from "./login.js";
+import CustomCommandsLogin from "./login.js";
+export class Login {
+    constructor() {
+    }
 
-Cypress.Commands.add("login", (userEmail, userPassword) => {
-    CustomCommandsLogin.visitingPages();
-    CustomCommandsLogin.userEmail().type(userEmail);
-    CustomCommandsLogin.userPassword().type(userPassword);
-    CustomCommandsLogin.loginButton().click();
-    CustomCommandsLogin.loginPrecessisSuccess();
-});
+    login(userEmail, userPassword) {
+        CustomCommandsLogin.visitingPages();
+        CustomCommandsLogin.userEmail().type(userEmail);
+        CustomCommandsLogin.userPassword().type(userPassword);
+        CustomCommandsLogin.loginButton().click();
+    }
+
+}
