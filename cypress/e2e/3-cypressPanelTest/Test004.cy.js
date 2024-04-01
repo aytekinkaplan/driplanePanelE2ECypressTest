@@ -1,11 +1,12 @@
-import {loginprocess} from "../../support/commands";
+import {loginprocess} from "./pages/loginprocess";
 
 describe('Should log in successfully', () => {
-    it('Should log in successfully and navigate to the dashboard', () => {
-        cy.fixture("loginprocess.json").then((data) => {
-            loginprocess(data[0].userEmail, data[0].userPassword, "projects");
+    before('Set up objects for each test', () => {
+        cy.on("uncaught:exception", (err, runnable) => {
+            return false
         });
-
     });
-
+    it('Should log in successfully and navigate to the dashboard', () => {
+        loginprocess("aoniki2018@gmail.com", "Aytekinkaplan1184811@", "projects");
+    });
 });

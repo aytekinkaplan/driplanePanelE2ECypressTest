@@ -5,42 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="72ee3377-3db2-4c27-8d64-11e5d4a623ca" name="Changes" comment="New Changes have committed">
-      <change afterPath="$PROJECT_DIR$/cypress/e2e/3-cypressPanelTest/Test006_rightUpperCornerSection.cy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cypress/e2e/3-cypressPanelTest/Test007_LoginTestWithFakeEmailAndFakePass.cy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cypress/e2e/3-cypressPanelTest/pages/rightUpperCornerSection.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cypress/fixtures/loginDataScenerios.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cypress/support/login.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/e2e/1-getting-started/todo.cy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/actions.cy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/aliasing.cy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/assertions.cy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/connectors.cy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/cookies.cy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/cypress_api.cy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/files.cy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/location.cy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/misc.cy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/navigation.cy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/network_requests.cy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/querying.cy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/spies_stubs_clocks.cy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/storage.cy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/traversal.cy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/utilities.cy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/viewport.cy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/waiting.cy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/window.cy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/e2e/3-cypressPanelTest/Test001_LoginPageUITest.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/3-cypressPanelTest/Test001_LoginPageUITest.cy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/e2e/3-cypressPanelTest/Test002_LoginPageLoginTest.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/3-cypressPanelTest/Test002_LoginPageLoginTest.cy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/e2e/3-cypressPanelTest/Test003_DriplaneDashboardUITest.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/3-cypressPanelTest/Test003_DriplaneDashboardUITest.cy.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cypress/e2e/3-cypressPanelTest/Test004.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/3-cypressPanelTest/Test004.cy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/e2e/3-cypressPanelTest/Test005_SettingsPage.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/3-cypressPanelTest/Test005_SettingsPage.cy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/e2e/3-cypressPanelTest/Test006_LiveSection.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/e2e/3-cypressPanelTest/pages/login_specs.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/3-cypressPanelTest/pages/login_specs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/fixtures/loginprocess.json" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/fixtures/loginprocess.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/fixtures/userLoginTest.json" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/fixtures/userLoginTest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/fixtures/users.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/support/commands.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/support/commands.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/e2e/3-cypressPanelTest/pages/dashboardpage.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/3-cypressPanelTest/pages/dashboardpage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/support/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/support/login.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
@@ -165,7 +134,7 @@
       <updated>1711292699646</updated>
       <workItem from="1711292700764" duration="3000" />
       <workItem from="1711597098978" duration="11685000" />
-      <workItem from="1711675567011" duration="83093000" />
+      <workItem from="1711675567011" duration="96312000" />
     </task>
     <task id="LOCAL-00001" summary="New Changes have committed">
       <option name="closed" value="true" />
@@ -175,7 +144,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711827424216</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="New Changes have committed">
+      <option name="closed" value="true" />
+      <created>1711883370565</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1711883370565</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

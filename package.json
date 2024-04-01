@@ -2,6 +2,7 @@
   "name": "driplanePanelCypress",
   "version": "1.0.0",
   "devDependencies": {
+    "@cypress/xpath": "^2.0.3",
     "@faker-js/faker": "^8.4.1",
     "cypress": "*"
   }

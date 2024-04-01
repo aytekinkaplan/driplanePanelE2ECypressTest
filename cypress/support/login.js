@@ -1,21 +1,22 @@
-class CustomCommandsLogin {
-    get visitingPages(){
+export class CustomCommandsLogin {
+    static visitingPages() {
         return cy.visit("/login");
     }
-    get userEmail() {
+
+    static userEmail() {
         return cy.get("[data-testid=\"usernameInput\"] > .input-wrapper > .native-wrapper");
     }
-    get userPassword() {
+
+    static userPassword() {
         return cy.get("[data-testid=\"passwordInput\"] > .input-wrapper > .native-wrapper");
     }
-    get loginButton() {
+
+    static loginButton() {
         return cy.get("ion-button:contains('Login')").click();
     }
 
-    get loginPrecessisSuccess() {
+    static loginPrecessisSuccess() {
         return cy.url().should("include", "/projects");
     }
 
-
 }
-export default CustomCommandsLogin;
