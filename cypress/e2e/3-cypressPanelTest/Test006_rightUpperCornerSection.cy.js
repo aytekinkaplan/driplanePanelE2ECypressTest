@@ -25,6 +25,9 @@ describe('Test Case Description', () => {
     it('Test Description', () => {
         cy.viewport(768, 1024);
         loginprocess("aoniki2018@gmail.com", "Aytekinkaplan1184811@", "projects");
-        rightUpperCornerSection.getLastMonth().should("be.visible");
+        rightUpperCornerSection.getUpperRightCornerButton().should("be.visible");
+        rightUpperCornerSection.getUpperRightCornerButton().click();
+
+        rightUpperCornerSection.getLiveRadioButton().should("be.visible");
     })
 });

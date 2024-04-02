@@ -1,10 +1,12 @@
 class RightUpperCornerSection {
     constructor() {}
 
-    getLastMonth() {
-        //return cy.get(".ng-pristine.ng-valid.ios.has-value.ion-focusable.select-ltr.select-justify-space-between.select-label-placement-start.hydrated.ng-touched.ion-pristine.ion-valid.ion-touched").shadow().find("#select-label");
-   // return cy.get("ion-label:contains('Last Month')");
-    return cy.contains("Last Month");
+    getUpperRightCornerButton() {
+        return cy.get('ion-select[slot="end"]').shadow().find('.select-wrapper');
+    }
+
+    getLiveRadioButton(){
+        return cy.get('ion-radio[class="sc-ion-select-popover-ios ios in-item radio-checked radio-justify-space-between radio-alignment-center radio-label-placement-start hydrated"]').shadow().find('.radio-wrapper');
     }
 
 
