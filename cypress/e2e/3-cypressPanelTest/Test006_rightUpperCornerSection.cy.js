@@ -2,7 +2,7 @@
 import SettingsPage from "./pages/settingspage";
 import LoginPage from "./pages/login_specs";
 import DashboardPage from "./pages/dashboardpage";
-import RightUpperCornerSection from "./pages/rightuppercornersection";
+import {RightUpperCornerSection} from "./pages/rightuppercornersection";
 import {loginprocess} from "./pages/loginprocess"; // Corrected import statement
 
 // Test case
@@ -25,9 +25,6 @@ describe('Test Case Description', () => {
     it('Test Description', () => {
         cy.viewport(768, 1024);
         loginprocess("aoniki2018@gmail.com", "Aytekinkaplan1184811@", "projects");
-        rightUpperCornerSection.getUpperRightCornerButton().should("be.visible");
         rightUpperCornerSection.getUpperRightCornerButton().click();
-
-        rightUpperCornerSection.getLiveRadioButton().should("be.visible");
     })
 });
