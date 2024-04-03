@@ -36,6 +36,9 @@ describe('Login and Dashboard Functionality Tests', () => {
             dashboardPage.getEmailArea().contains('@');
         });
 
+        dashboardPage.getAccountSettings().should('be.visible');
+        dashboardPage.getAccountSettings().click();
+
         // Additional comments:
         // You may add additional assertions or expectations
         // to validate specific functionalities or elements on the dashboard page.

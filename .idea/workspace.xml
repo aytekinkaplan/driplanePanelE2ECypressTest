@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="72ee3377-3db2-4c27-8d64-11e5d4a623ca" name="Changes" comment="New Changes have committed">
+      <change afterPath="$PROJECT_DIR$/cypress/e2e/3-cypressPanelTest/pages/accountSettingsButtonTest.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/e2e/3-cypressPanelTest/Test005_SettingsPage.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/3-cypressPanelTest/Test005_SettingsPage.cy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/e2e/3-cypressPanelTest/Test006_rightUpperCornerSection.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/3-cypressPanelTest/Test006_rightUpperCornerSection.cy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/e2e/3-cypressPanelTest/pages/rightUpperCornerSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/3-cypressPanelTest/pages/rightUpperCornerSection.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/e2e/3-cypressPanelTest/pages/settingspage.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/3-cypressPanelTest/pages/settingspage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/e2e/3-cypressPanelTest/Test003_DriplaneDashboardUITest.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/3-cypressPanelTest/Test003_DriplaneDashboardUITest.cy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/e2e/3-cypressPanelTest/pages/dashboardpage.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/3-cypressPanelTest/pages/dashboardpage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,7 +131,7 @@
       <updated>1711292699646</updated>
       <workItem from="1711292700764" duration="3000" />
       <workItem from="1711597098978" duration="11685000" />
-      <workItem from="1711675567011" duration="128743000" />
+      <workItem from="1711675567011" duration="134242000" />
     </task>
     <task id="LOCAL-00001" summary="New Changes have committed">
       <option name="closed" value="true" />
@@ -174,7 +173,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712032068734</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="New Changes have committed">
+      <option name="closed" value="true" />
+      <created>1712119088921</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1712119088921</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
