@@ -1,6 +1,6 @@
-import { CreateAccount } from "../../pages/createAccount";
-import DashboardPage from "../../pages/dashboardpage";
-import LoginPage from "../../pages/login_specs";
+import { CreateAccount } from "../../support/pages/createAccount";
+import DashboardPage from "../../support/pages/dashboardpage";
+import LoginPage from "../../support/pages/login_specs";
 
 describe('', () => {
     let dashboardPage;

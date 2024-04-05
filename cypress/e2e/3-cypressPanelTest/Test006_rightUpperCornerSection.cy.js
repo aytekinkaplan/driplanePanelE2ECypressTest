@@ -1,9 +1,9 @@
 // Import statements
-import SettingsPage from "../../pages/settingspage";
-import LoginPage from "../../pages/login_specs";
-import DashboardPage from "../../pages/dashboardpage";
-import {RightUpperCornerSection} from "../../pages/rightuppercornersection";
-import {loginprocess} from "../../pages/loginprocess"; // Corrected import statement
+import SettingsPage from "../../support/pages/settingspage";
+import LoginPage from "../../support/pages/login_specs";
+import DashboardPage from "../../support/pages/dashboardpage";
+import {RightUpperCornerSection} from "../../support/pages/rightuppercornersection";
+import {loginprocess} from "../../support/pages/loginprocess"; // Corrected import statement
 
 // Test case
 describe('Test Case Description', () => {

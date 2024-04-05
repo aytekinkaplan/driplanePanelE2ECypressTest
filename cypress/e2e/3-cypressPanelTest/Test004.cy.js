@@ -1,4 +1,4 @@
-import {loginprocess} from "../../pages/loginprocess";
+import {loginprocess} from "../../support/pages/loginprocess";
 
 describe('Should log in successfully', () => {
     before('Set up objects for each test', () => {
