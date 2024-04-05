@@ -1,4 +1,4 @@
-import LoginPage from "./pages/login_specs";
+import LoginPage from "../../pages/login_specs";
 
 describe('Login Tests with Fixture Data', () => {
     let loginPage;

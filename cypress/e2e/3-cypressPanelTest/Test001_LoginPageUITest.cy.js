@@ -1,4 +1,4 @@
-import LoginPage from "./pages/login_specs"; // Corrected path
+import LoginPage from "../../pages/login_specs";
 
 describe('Login UI Page Test', () => {
     let loginPage;

@@ -1,4 +1,5 @@
 export class AccountSettingsButtonTest {
+    projectNumber;
     constructor() {
     }
 
@@ -40,4 +41,10 @@ export class AccountSettingsButtonTest {
     getConfirmationButton() {
         return cy.get('.buttons-last-slot > .ios');
     }
+
+  getSwipeLeft() {
+      return cy.get('#main-content > app-account > ion-content > ion-list > ion-item-sliding:nth-child(3) > ion-item');
+
+  }
+
 }

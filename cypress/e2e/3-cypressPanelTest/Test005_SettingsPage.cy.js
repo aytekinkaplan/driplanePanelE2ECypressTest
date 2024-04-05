@@ -1,7 +1,7 @@
-import SettingsPage from "./pages/settingspage";
-import LoginPage from "./pages/login_specs";
-import DashboardPage from "./pages/dashboardpage";
-import {loginprocess} from "./pages/loginprocess";
+import SettingsPage from "../../pages/settingspage";
+import LoginPage from "../../pages/login_specs";
+import DashboardPage from "../../pages/dashboardpage";
+import {loginprocess} from "../../pages/loginprocess";
 
 describe('Settings Page Navigation After Login', () => {
     let settingsPage;

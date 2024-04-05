@@ -1,6 +1,6 @@
-import LoginPage from "./pages/login_specs";
-import DashboardPage from "./pages/dashboardpage";
-import { loginprocess } from "./pages/loginprocess";
+import LoginPage from "../../pages/login_specs";
+import DashboardPage from "../../pages/dashboardpage";
+import { loginprocess } from "../../pages/loginprocess";
 
 describe('Login and Dashboard Functionality Tests', () => {
     let loginPage;

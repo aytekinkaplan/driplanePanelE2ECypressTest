@@ -1,6 +1,6 @@
-import { CreateAccount } from "./pages/createAccount";
-import DashboardPage from "./pages/dashboardpage";
-import LoginPage from "./pages/login_specs";
+import { CreateAccount } from "../../pages/createAccount";
+import DashboardPage from "../../pages/dashboardpage";
+import LoginPage from "../../pages/login_specs";
 
 describe('', () => {
     let dashboardPage;
@@ -36,7 +36,7 @@ describe('', () => {
 
         createAccount.getEmailInput2().should('be.visible').type('<EMAIL>');
         createAccount.getPasswordInput2().should('be.visible').type('<EMAIL>');
-        createAccount.getVerifyPasswordInput2().should('be.visible').type('<EMAIL>');
+        createAccount.getVerifyPasswordInput2().should('be.visible').type('PASSWORD');
         createAccount.getCreateAccountButton().should('be.visible').should('have.text', 'Register').click();
     });
 });
