@@ -6,6 +6,15 @@
   <component name="ChangeListManager">
     <list default="true" id="72ee3377-3db2-4c27-8d64-11e5d4a623ca" name="Changes" comment="New Changes have committed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/e2e/3-cypressPanelTest/Test001_LoginPageUITest.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/3-cypressPanelTest/Test001_LoginPageUITest.cy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/e2e/3-cypressPanelTest/Test002_LoginPageLoginTest.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/3-cypressPanelTest/Test002_LoginPageLoginTest.cy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/e2e/3-cypressPanelTest/Test003_DriplaneDashboardUITest.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/3-cypressPanelTest/Test003_DriplaneDashboardUITest.cy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/e2e/3-cypressPanelTest/Test004.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/3-cypressPanelTest/Test004.cy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/e2e/3-cypressPanelTest/Test005_SettingsPage.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/3-cypressPanelTest/Test005_SettingsPage.cy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/e2e/3-cypressPanelTest/Test006_rightUpperCornerSection.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/3-cypressPanelTest/Test006_rightUpperCornerSection.cy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/e2e/3-cypressPanelTest/Test007_LoginTestWithFakeEmailAndFakePass.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/3-cypressPanelTest/Test007_LoginTestWithFakeEmailAndFakePass.cy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/e2e/3-cypressPanelTest/Test009-CreateAccountTest.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/3-cypressPanelTest/Test009-CreateAccountTest.cy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,8 +90,8 @@
       <recent name="C:\Users\aonik\IdeaProjects\driplanePanelCypress\cypress\e2e\3-cypressPanelTest" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\aonik\IdeaProjects\driplanePanelCypress\cypress" />
       <recent name="C:\Users\aonik\IdeaProjects\driplanePanelCypress\cypress\support" />
+      <recent name="C:\Users\aonik\IdeaProjects\driplanePanelCypress\cypress" />
       <recent name="C:\Users\aonik\IdeaProjects\driplanePanelCypress\cypress\e2e\3-cypressPanelTest" />
       <recent name="C:\Users\aonik\IdeaProjects\driplanePanelCypress\cypress\e2e\3-cypressPanelTest\pages" />
       <recent name="C:\Users\aonik\IdeaProjects\driplanePanelCypress\cypress\e2e" />
@@ -151,7 +160,7 @@
       <workItem from="1711675567011" duration="171347000" />
       <workItem from="1712330540154" duration="1656000" />
       <workItem from="1712341747419" duration="199000" />
-      <workItem from="1712341958829" duration="2117000" />
+      <workItem from="1712341958829" duration="15611000" />
     </task>
     <task id="LOCAL-00001" summary="New Changes have committed">
       <option name="closed" value="true" />
@@ -233,7 +242,23 @@
       <option name="project" value="LOCAL" />
       <updated>1712343342145</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="New Changes have committed">
+      <option name="closed" value="true" />
+      <created>1712344457226</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1712344457226</updated>
+    </task>
+    <task id="LOCAL-00012" summary="New Changes have committed">
+      <option name="closed" value="true" />
+      <created>1712344732503</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1712344732503</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

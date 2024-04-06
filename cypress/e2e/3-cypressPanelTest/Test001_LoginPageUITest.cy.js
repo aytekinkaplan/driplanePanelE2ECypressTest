@@ -1,3 +1,4 @@
+/// <reference types="Cypress" />
 import LoginPage from "../../support/pages/login_specs";
 
 describe('Login UI Page Test', () => {
@@ -19,6 +20,7 @@ describe('Login UI Page Test', () => {
         loginPage.getLoginButton().should('be.visible');
         loginPage.getResetButton().should('be.visible');
         loginPage.getCreateAccountButton().should('be.visible');
-        loginPage.getForgotPasswordButton().should('be.visible');
+        // loginPage.getForgotPasswordButton().should('be.visible');
+        loginPage.getForgotPasswordButton().should("be.visible").and("have.text", "Forgot Password?");
     });
 });

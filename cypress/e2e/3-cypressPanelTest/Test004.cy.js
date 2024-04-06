@@ -1,3 +1,4 @@
+/// <reference types="Cypress" />
 import {loginprocess} from "../../support/pages/loginprocess";
 
 describe('Should log in successfully', () => {

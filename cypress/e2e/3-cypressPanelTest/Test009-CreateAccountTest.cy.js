@@ -1,3 +1,4 @@
+/// <reference types="Cypress" />
 import { CreateAccount } from "../../support/pages/createAccount";
 import DashboardPage from "../../support/pages/dashboardpage";
 import LoginPage from "../../support/pages/login_specs";

@@ -1,3 +1,4 @@
+/// <reference types="Cypress" />
 const { faker } = require('@faker-js/faker');
 
 function loginUser(email, password) {

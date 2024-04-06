@@ -1,3 +1,4 @@
+/// <reference types="Cypress" />
 // Import statements
 import SettingsPage from "../../support/pages/settingspage";
 import LoginPage from "../../support/pages/login_specs";

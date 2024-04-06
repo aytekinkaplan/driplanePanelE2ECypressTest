@@ -1,3 +1,4 @@
+/// <reference types="Cypress" />
 import LoginPage from "../../support/pages/login_specs";
 
 describe('Login Tests with Fixture Data', () => {
