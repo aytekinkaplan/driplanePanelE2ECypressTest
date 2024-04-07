@@ -1,5 +1,6 @@
 export class AccountSettingsButtonTest {
     projectNumber;
+
     constructor() {
     }
 
@@ -34,7 +35,8 @@ export class AccountSettingsButtonTest {
             "Nebula Quest",
             "Celestial Voyage",
             "Solar Eclipse",
-            "Cosmic Explorer"
+            "Cosmic Explorer",
+            "Orion Nebula",
         ];
     }
 
@@ -42,9 +44,9 @@ export class AccountSettingsButtonTest {
         return cy.get('.buttons-last-slot > .ios');
     }
 
-  getSwipeLeft() {
-      return cy.get('#main-content > app-account > ion-content > ion-list > ion-item-sliding:nth-child(3) > ion-item');
+    getSwipeLeft() {
+        return cy.get('#main-content > app-account > ion-content > ion-list > ion-item-sliding:nth-child(3) > ion-item');
 
-  }
+    }
 
 }

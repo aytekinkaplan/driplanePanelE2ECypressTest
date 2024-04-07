@@ -36,6 +36,14 @@ class LoginPage {
         return cy.get('body > app-root > ion-app > ion-router-outlet > app-login > app-modal-view > ion-content > ion-grid > ion-row > ion-col > div > form > ion-list > ion-item.item.ios.item-lines-default.item-fill-none.in-list.ion-focusable.hydrated > ion-button');
     }
 
+    getAlertForValidEmail(){
+        return cy.get('[data-testid="usernameInput"] > .input-bottom > .error-text');
+    }
+
+    getAlertForValidPassword(){
+        return cy.get('[data-testid="passwordInput"] > .input-bottom > .error-text');
+    }
+
     login(email, password) {
         this.visitLoginPage();
         this.getEmailInput().type(email);

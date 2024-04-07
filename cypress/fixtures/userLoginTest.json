@@ -9,29 +9,29 @@
     "password": "Password123!",
     "description": "Invalid email format. Expected outcome: Error message for invalid email."
   },
-  "invalidEmailFormats": [
-    "username@",
-    "example.com",
-    "johndoe@.com"
-  ],
+  "invalidEmailFormats": {
+    "email": "username@example.com",
+    "password": "example.com",
+    "description": "johndoe@.com"
+  },
   "shortPassword": {
     "email": "johndoe@example.com",
     "password": "short",
     "description": "Short password (less than 8 characters). Expected outcome: Error message for short password."
   },
   "emptyFields": {
-    "email": null,
-    "password": null,
+    "email": "null",
+    "password": "null",
     "description": "Both email and password fields are empty. Expected outcome: Error messages for both fields."
   },
   "emptyEmail": {
-    "email": null,
+    "email": "",
     "password": "Password123!",
     "description": "Email field is empty. Expected outcome: Error message for empty email."
   },
   "emptyPassword": {
     "email": "johndoe@example.com",
-    "password": null,
+    "password": "",
     "description": "Password field is empty. Expected outcome: Error message for empty password."
   },
   "caseSensitive": [
@@ -78,11 +78,11 @@
   },
   "validEmailEmptyPassword": {
     "email": "testuser@example.com",
-    "password": null,
+    "password": "",
     "description": "Valid email but empty password. Expected outcome: Error message for empty password."
   },
   "emptyEmailValidPassword": {
-    "email": null,
+    "email": "",
     "password": "TestPassword123!",
     "description": "Empty email but valid password. Expected outcome: Error message for empty email."
   }
