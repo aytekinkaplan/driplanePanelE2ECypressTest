@@ -14,9 +14,13 @@ class DashboardPage {
     getSettingsButton() {
         return cy.get("ion-label:contains('Settings')");
     }
-  getScriptCodeArea(){
+/*  getScriptCodeArea(){
         return cy.get('pre[class="hljs"]');
-  }
+  }*/
+
+    getScriptCodeArea(){
+        return cy.get('.hljs');
+    }
 
   getEmailArea(){
         return cy.get('ion-note[data-testid="loggedInUser"]');

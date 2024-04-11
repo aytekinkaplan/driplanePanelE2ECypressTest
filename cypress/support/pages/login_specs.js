@@ -44,6 +44,10 @@ class LoginPage {
         return cy.get('[data-testid="passwordInput"] > .input-bottom > .error-text');
     }
 
+    getAlertFailedForInvalidLogin(){
+        return cy.get('[data-testid="usernameInput"] > .input-bottom > .error-text')
+    }
+
     login(email, password) {
         this.visitLoginPage();
         this.getEmailInput().type(email);

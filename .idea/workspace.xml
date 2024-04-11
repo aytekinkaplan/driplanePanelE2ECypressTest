@@ -7,6 +7,8 @@
     <list default="true" id="72ee3377-3db2-4c27-8d64-11e5d4a623ca" name="Changes" comment="New Changes have committed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cypress/e2e/3-cypressPanelTest/Test001_LoginPageUITest.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/3-cypressPanelTest/Test001_LoginPageUITest.cy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/e2e/3-cypressPanelTest/Test007_LoginTestWithFakeEmailAndFakePass.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/3-cypressPanelTest/Test007_LoginTestWithFakeEmailAndFakePass.cy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/support/pages/login_specs.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/support/pages/login_specs.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,8 +128,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Cypress.all tests in Test005.cy.js" />
-        <item itemvalue="Cypress.all tests in Test004.cy.js (1)" />
         <item itemvalue="Cypress.all tests in Test004.cy.js" />
+        <item itemvalue="Cypress.all tests in Test004.cy.js (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -153,6 +155,9 @@
       <workItem from="1712330540154" duration="1656000" />
       <workItem from="1712341747419" duration="199000" />
       <workItem from="1712341958829" duration="19392000" />
+      <workItem from="1712526221707" duration="9767000" />
+      <workItem from="1712806712383" duration="76000" />
+      <workItem from="1712806817612" duration="1122000" />
     </task>
     <task id="LOCAL-00001" summary="New Changes have committed">
       <option name="closed" value="true" />

@@ -1,7 +1,7 @@
 /// <reference types="Cypress" />
 import LoginPage from "../../support/pages/login_specs";
 import DashboardPage from "../../support/pages/dashboardpage";
-import { loginprocess } from "../../support/pages/loginprocess";
+import {loginprocess} from "../../support/pages/loginprocess";
 
 describe('Login and Dashboard Functionality Tests', () => {
     let loginPage;
@@ -22,7 +22,7 @@ describe('Login and Dashboard Functionality Tests', () => {
         loginprocess("aoniki2018@gmail.com", "Aytekinkaplan1184811@", "projects");
 
         // Verify and click on the left corner button in the dashboard page
-        dashboardPage.getLeftCornerButton().should('exist').click({ force: true });
+        dashboardPage.getLeftCornerButton().should('exist').click({force: true});
 
         // Verify visibility of dashboard and settings buttons
         dashboardPage.getDashButton().should('be.visible');
@@ -32,7 +32,11 @@ describe('Login and Dashboard Functionality Tests', () => {
         cy.viewport(1280, 720);
 
         // Verify the visibility of script code area and check if email area contains '@'
-        dashboardPage.getScriptCodeArea().should('be.visible');
+        dashboardPage.getScriptCodeArea().should('be.visible').then(() => {
+            dashboardPage.getScriptCodeArea().contains('</script>').and('be.visible').and('not.be.empty');
+
+
+        });
         dashboardPage.getEmailArea().should('be.visible').then(() => {
             dashboardPage.getEmailArea().contains('@');
         });
@@ -40,14 +44,7 @@ describe('Login and Dashboard Functionality Tests', () => {
         dashboardPage.getAccountSettings().should('be.visible');
         dashboardPage.getAccountSettings().click();
 
-        // Additional comments:
-        // You may add additional assertions or expectations
-        // to validate specific functionalities or elements on the dashboard page.
 
-        // Overall comment:
-        // This test verifies the login process and checks various functionalities on the dashboard.
-        // It ensures that the user can successfully log in and access the dashboard,
-        // and validates the visibility of key elements on the dashboard page.
     });
 
 });

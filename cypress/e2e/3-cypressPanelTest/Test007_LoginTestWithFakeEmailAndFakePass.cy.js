@@ -1,5 +1,6 @@
 /// <reference types="Cypress" />
 const { faker } = require('@faker-js/faker');
+import {LoginPage} from '../../support/pages/login_specs';
 
 function loginUser(email, password) {
     cy.get("[data-testid=\"usernameInput\"] > .input-wrapper > .native-wrapper").type(email);
@@ -17,6 +18,7 @@ describe('Login Tests', () => {
 
     loginData.forEach((data, index) => {
         it(`should login with a valid fake email and password - TEST${index + 1}`, () => {
+
             cy.visit("/login");
             const { email, password } = data;
             loginUser(email, password);

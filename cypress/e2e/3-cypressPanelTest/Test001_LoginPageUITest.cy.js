@@ -10,7 +10,7 @@ describe('Login UI Page Test', () => {
     });
 
     it('Driplane Login Page UI URL includes /login', () => {
-        cy.url().should('include', '/login');
+        cy.url().should('contain', '/login');
     });
 
     it('Login Page displays expected elements', () => {

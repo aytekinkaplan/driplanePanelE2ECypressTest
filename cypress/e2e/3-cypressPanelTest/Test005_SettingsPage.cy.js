@@ -36,13 +36,26 @@ describe('Settings Page Navigation After Login', () => {
             console.log(text);
         })
 
-        const element = settingsPage.getProjectID();
-        const text = element.textContent;
-        cy.log(text)
+
+        settingsPage.getProjectClientSecret().should('be.visible');
+
 
         settingsPage.getProjectAPIKeys().should('be.visible');
 
-        const apiKeysElement = settingsPage.getProjectAPIKeys().textContent;
-        cy.log(apiKeysElement);
+        settingsPage.getProjectEvents().should('be.visible').and('have.text', 'Project Events');
+
+        settingsPage.getCreateNewKey().should('be.visible').and('have.text', 'Create New Key').click({force: true});
+
+        settingsPage.getCreateProjectKey().should('be.visible').and('have.text', 'Create Project Key');
+
+        settingsPage.getKeyNameArea().should('be.visible').type("<KEYNAME>");
+
+        settingsPage.getGivingANameToKey().should('be.visible').and('have.text', 'Give your key a name that explains the purpose of this key. ex: Customer API Key');
+
+
+
+
+
+
     });
 });
