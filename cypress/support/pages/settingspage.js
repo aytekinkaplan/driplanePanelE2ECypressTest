@@ -42,8 +42,47 @@ class SettingsPage {
         return cy.get('#ion-input-0');
     }
 
-    getGivingANameToKey(){
+    getGivingANameToKey() {
         return cy.get('form.ng-dirty > .list-note');
+    }
+
+    getWriteText() {
+        return cy.get(':nth-child(3) > :nth-child(1) > .in-item');
+    }
+
+    getReadText() {
+        return cy.get(':nth-child(2) > .in-item');
+    }
+
+    getAutoFillText() {
+        return cy.get('form.ng-dirty > :nth-child(4)');
+    }
+
+    getAddAutoFillValue() {
+        return cy.get(':nth-child(5) > .item-has-start-slot');
+    }
+
+    getCancelButton(){
+        return cy.get('.ng-untouched > .toolbar-title-default > .buttons-first-slot > .ios');
+    }
+
+    getAddNewAutoFillValue(){
+        return cy.get('.ng-untouched > .toolbar-title-default > .title-default');
+    }
+
+    getStringValueAndNumericValueButtons(){
+        return cy.get('.toolbar-segment');
+    }
+
+    getKeyInputArea(){
+        return cy.get('#ion-input-3');
+    }
+    getValueInputArea(){
+        return cy.get('#ion-input-4');
+    }
+
+    getKeyCanOnlyIncludeALERT(){
+        return cy.get('.item-has-value > .ng-invalid > .input-bottom > .error-text');
     }
 
 

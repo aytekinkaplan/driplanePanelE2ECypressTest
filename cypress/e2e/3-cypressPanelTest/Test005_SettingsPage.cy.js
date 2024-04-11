@@ -52,9 +52,27 @@ describe('Settings Page Navigation After Login', () => {
 
         settingsPage.getGivingANameToKey().should('be.visible').and('have.text', 'Give your key a name that explains the purpose of this key. ex: Customer API Key');
 
+        settingsPage.getWriteText().should('be.visible').and('have.text', 'Write Access').click({force: true});
 
+        settingsPage.getReadText().should('be.visible').and('have.text', 'Read Access').click({force: true});
 
+        settingsPage.getAutoFillText().should('be.visible').and('have.text', 'Auto Fill');
 
+        settingsPage.getAddAutoFillValue().should('be.visible').and('have.text', 'Add auto fill value').click({force: true});
+
+        settingsPage.getCancelButton().should('be.visible').and('have.text', 'Cancel').click({force: true});
+
+        settingsPage.getAddAutoFillValue().should('be.visible').and('have.text', 'Add auto fill value').click({force: true});
+
+        settingsPage.getAddNewAutoFillValue().should('be.visible').and('have.text', 'Add New Auto Fill Value').click({force: true});
+
+        settingsPage.getStringValueAndNumericValueButtons().should('be.visible').and('have.text', 'String valueNumeric value');
+
+        settingsPage.getKeyInputArea().should('be.visible').and('have.text', '').type("<KEYNAME>");
+
+        settingsPage.getValueInputArea().should('be.visible').and('have.text', '').click();
+
+        settingsPage.getKeyCanOnlyIncludeALERT().should('be.visible').and('have.text', 'Key can only include lowercase letters, numbers, dash and underscore');
 
 
     });
