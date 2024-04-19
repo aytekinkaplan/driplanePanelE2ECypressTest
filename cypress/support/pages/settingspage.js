@@ -62,27 +62,40 @@ class SettingsPage {
         return cy.get(':nth-child(5) > .item-has-start-slot');
     }
 
-    getCancelButton(){
+    getCancelButton() {
         return cy.get('.ng-untouched > .toolbar-title-default > .buttons-first-slot > .ios');
     }
 
-    getAddNewAutoFillValue(){
+    getAddNewAutoFillValue() {
         return cy.get('.ng-untouched > .toolbar-title-default > .title-default');
     }
 
-    getStringValueAndNumericValueButtons(){
+    getStringValueAndNumericValueButtons() {
         return cy.get('.toolbar-segment');
     }
 
-    getKeyInputArea(){
+    getKeyInputArea() {
         return cy.get('#ion-input-3');
     }
-    getValueInputArea(){
+
+    getValueInputArea() {
         return cy.get('#ion-input-4');
     }
 
-    getKeyCanOnlyIncludeALERT(){
+    getKeyCanOnlyIncludeALERT() {
         return cy.get('.item-has-value > .ng-invalid > .input-bottom > .error-text');
+    }
+
+    getVALUE() {
+        return cy.get('.ng-pristine > .input-wrapper > .native-wrapper');
+    }
+
+    getVALUECapsulated() {
+        return cy.get('form.ng-invalid > .list-ios > .item.ion-valid > .sc-ion-input-ios-h > .input-wrapper')
+    }
+
+    getPLEASECHECKVALUENotification() {
+        return cy.get(':nth-child(2) > .sc-ion-input-ios-h > .input-bottom > .error-text');
     }
 
 

@@ -69,11 +69,14 @@ describe('Settings Page Navigation After Login', () => {
         settingsPage.getStringValueAndNumericValueButtons().should('be.visible').and('have.text', 'String valueNumeric value');
 
         settingsPage.getKeyInputArea().should('be.visible').and('have.text', '').type("<KEYNAME>");
+        settingsPage.getKeyInputArea().should('be.visible').and('have.text', '').clear();
 
         settingsPage.getValueInputArea().should('be.visible').and('have.text', '').click();
 
         settingsPage.getKeyCanOnlyIncludeALERT().should('be.visible').and('have.text', 'Key can only include lowercase letters, numbers, dash and underscore');
 
+        settingsPage.getVALUE().should('be.visible').and('have.text', '').type("<VALUE>");
+        settingsPage.getVALUECapsulated().should('be.visible').clear();
 
     });
 });
