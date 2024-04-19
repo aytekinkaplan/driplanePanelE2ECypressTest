@@ -78,13 +78,13 @@ describe('Settings Page Navigation After Login', () => {
         // Verifying visibility of 'Auto Fill' text on Settings page
         settingsPage.getAutoFillText().should('be.visible').and('have.text', 'Auto Fill');
 
-        // Clicking on 'Add auto fill value' button on Settings page
+        // Clicking on 'Add autofill value' button on Settings page
         settingsPage.getAddAutoFillValue().should('be.visible').and('have.text', 'Add auto fill value').click({ force: true });
 
         // Clicking on 'Cancel' button on Settings page
         settingsPage.getCancelButton().should('be.visible').and('have.text', 'Cancel').click({ force: true });
 
-        // Clicking on 'Add auto fill value' button again on Settings page
+        // Clicking on 'Add autofill value' button again on Settings page
         settingsPage.getAddAutoFillValue().should('be.visible').and('have.text', 'Add auto fill value').click({ force: true });
 
         // Clicking on 'Add New Auto Fill Value' on Settings page
