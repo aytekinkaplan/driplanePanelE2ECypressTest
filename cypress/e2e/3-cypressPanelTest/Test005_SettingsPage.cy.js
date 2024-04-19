@@ -78,5 +78,7 @@ describe('Settings Page Navigation After Login', () => {
         settingsPage.getVALUE().should('be.visible').and('have.text', '').type("<VALUE>");
         settingsPage.getVALUECapsulated().should('be.visible').clear();
 
+        settingsPage.getPLEASECHECKVALUENotification().should('be.visible').and('have.text', 'Please check value');
+
     });
 });
