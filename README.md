@@ -32,8 +32,8 @@ Localhost
         cy.visit("/login");
 
         // Login actions
-        loginPage.getEmailInput().type('aoniki2018@gmail.com');
-        loginPage.getPasswordInput().type('Aytekinkaplan1184811@');
+        loginPage.getEmailInput().type('dmarty@gmail.com');
+        loginPage.getPasswordInput().type('alakabandadamaritus');
         loginPage.getLoginButton().click();
 
         cy.location('pathname').should('include', '/projects'); // Assert a specific path
