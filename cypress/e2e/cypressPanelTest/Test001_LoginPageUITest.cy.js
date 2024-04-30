@@ -13,6 +13,7 @@ describe('Login UI Page Test', () => {
         cy.url().should('contain', '/login');
     });
 
+
     it('Login Page displays expected elements', () => {
         loginPage.getDriplaneText().should('be.visible').should('contain', 'Driplane');
         loginPage.getEmailInput().should('be.visible');
