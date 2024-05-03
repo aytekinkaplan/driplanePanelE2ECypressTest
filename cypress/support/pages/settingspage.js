@@ -120,7 +120,7 @@ class SettingsPage {
 
     // This method returns the notification message to check the value.
     getPLEASECHECKVALUENotification() {
-        return cy.get(':nth-child(2) > .sc-ion-input-ios-h > .input-bottom > .error-text');
+        return cy.get('#ion-overlay-2 > div > ion-content > form > ion-list > ion-item:nth-child(2) > ion-input > div > div.error-text.sc-ion-input-ios');
     }
 }
 

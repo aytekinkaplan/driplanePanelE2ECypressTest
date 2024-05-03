@@ -105,7 +105,7 @@ describe('Settings Page Navigation After Login', () => {
         // Typing a value in the value input area on Settings page
         settingsPage.getVALUE().should('be.visible').and('have.text', '').type("<VALUE>");
 
-        // Clearing capsulated value on Settings page
+        // Clearing capsuled value on Settings page
         settingsPage.getVALUECapsulated().should('be.visible').clear();
 
         // Verifying a notification message to check the value on the Settings page
