@@ -37,10 +37,10 @@ describe('Settings Page Navigation After Login', () => {
         // Clicking on the Settings button to open Settings page
         settingsPage.getSettingsButton().click({ force: true });
 
-        // Verifying visibility of project name on Settings page
+        // Verifying visibility of project name on the Settings page
         settingsPage.getProjectNameDPS().should('be.visible');
 
-        // Verifying visibility of project ID on Settings page
+        // Verifying visibility of project ID on the Settings page
         settingsPage.getProjectID().should('be.visible');
 
         // Getting text of project ID and logging it
@@ -48,25 +48,25 @@ describe('Settings Page Navigation After Login', () => {
             console.log(text);
         })
 
-        // Verifying visibility of project client secret on Settings page
+        // Verifying visibility of project client secret on the Settings page
         settingsPage.getProjectClientSecret().should('be.visible');
 
-        // Verifying visibility of project API keys on Settings page
+        // Verifying visibility of project API keys on the Settings page
         settingsPage.getProjectAPIKeys().should('be.visible');
 
-        // Verifying visibility of 'Project Events' section on Settings page
+        // Verifying visibility of 'Project Events' section on the Settings page
         settingsPage.getProjectEvents().should('be.visible').and('have.text', 'Project Events');
 
-        // Clicking on 'Create New Key' button on Settings page
+        // Clicking on 'Create New Key' button on the Settings page
         settingsPage.getCreateNewKey().should('be.visible').and('have.text', 'Create New Key').click({ force: true });
 
-        // Verifying visibility of 'Create Project Key' on Settings page
+        // Verifying visibility of 'Create Project Key' on the Settings page
         settingsPage.getCreateProjectKey().should('be.visible').and('have.text', 'Create Project Key');
 
-        // Typing a key name in the key name area on Settings page
+        // Typing a key name in the key name area on the Settings page
         settingsPage.getKeyNameArea().should('be.visible').type("<KEYNAME>");
 
-        // Verifying visibility of instruction for giving a name to key on Settings page
+        // Verifying visibility of instruction for giving a name to key on the Settings page
         settingsPage.getGivingANameToKey().should('be.visible').and('have.text', 'Give your key a name that explains the purpose of this key. ex: Customer API Key');
 
         // Clicking on 'Write Access' text on Settings page
@@ -75,22 +75,22 @@ describe('Settings Page Navigation After Login', () => {
         // Clicking on 'Read Access' text on Settings page
         settingsPage.getReadText().should('be.visible').and('have.text', 'Read Access').click({ force: true });
 
-        // Verifying visibility of 'Auto Fill' text on Settings page
+        // Verifying visibility of 'Auto Fill' text on the Settings page
         settingsPage.getAutoFillText().should('be.visible').and('have.text', 'Auto Fill');
 
-        // Clicking on 'Add autofill value' button on Settings page
+        // Clicking on 'Add autofill value' button on the Settings page
         settingsPage.getAddAutoFillValue().should('be.visible').and('have.text', 'Add auto fill value').click({ force: true });
 
-        // Clicking on 'Cancel' button on Settings page
+        // Clicking on 'Cancel' button on the Settings page
         settingsPage.getCancelButton().should('be.visible').and('have.text', 'Cancel').click({ force: true });
 
-        // Clicking on 'Add autofill value' button again on Settings page
+        // Clicking on 'Add autofill value' button again on the Settings page
         settingsPage.getAddAutoFillValue().should('be.visible').and('have.text', 'Add auto fill value').click({ force: true });
 
-        // Clicking on 'Add New Auto Fill Value' on Settings page
+        // Clicking on 'Add New Auto Fill Value' on the Settings page
         settingsPage.getAddNewAutoFillValue().should('be.visible').and('have.text', 'Add New Auto Fill Value').click({ force: true });
 
-        // Verifying visibility of 'String value' and 'Numeric value' buttons on Settings page
+        // Verifying visibility of 'String value' and 'Numeric value' buttons on the Settings page
         settingsPage.getStringValueAndNumericValueButtons().should('be.visible').and('have.text', 'String valueNumeric value');
 
         // Clearing key input area on Settings page
@@ -99,7 +99,7 @@ describe('Settings Page Navigation After Login', () => {
         // Clicking on value input area on Settings page
         settingsPage.getValueInputArea().should('be.visible').and('have.text', '').click();
 
-        // Verifying alert message for key inclusion validation on Settings page
+        // Verifying an alert message for key inclusion validation on the Settings page
         settingsPage.getKeyCanOnlyIncludeALERT().should('be.visible').and('have.text', 'Key can only include lowercase letters, numbers, dash and underscore');
 
         // Typing a value in the value input area on Settings page
@@ -108,7 +108,7 @@ describe('Settings Page Navigation After Login', () => {
         // Clearing capsulated value on Settings page
         settingsPage.getVALUECapsulated().should('be.visible').clear();
 
-        // Verifying notification message to check the value on Settings page
+        // Verifying a notification message to check the value on the Settings page
         settingsPage.getPLEASECHECKVALUENotification().should('be.visible').and('have.text', 'Please check value');
     });
 });
