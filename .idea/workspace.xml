@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="72ee3377-3db2-4c27-8d64-11e5d4a623ca" name="Changes" comment="New Changes have committed" />
+    <list default="true" id="72ee3377-3db2-4c27-8d64-11e5d4a623ca" name="Changes" comment="New Changes have committed">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/fixtures/cypress.dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/fixtures/cypress.dev.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -183,7 +186,7 @@
       <workItem from="1714228521518" duration="5053000" />
       <workItem from="1714597751006" duration="15840000" />
       <workItem from="1714981680793" duration="597000" />
-      <workItem from="1715008612414" duration="2381000" />
+      <workItem from="1715008612414" duration="3439000" />
     </task>
     <task id="LOCAL-00001" summary="New Changes have committed">
       <option name="closed" value="true" />
@@ -457,7 +460,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715306544044</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="New Changes have committed">
+      <option name="closed" value="true" />
+      <created>1715306819886</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1715306819886</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
