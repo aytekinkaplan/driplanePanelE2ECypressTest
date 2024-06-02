@@ -1,7 +1,7 @@
 {
   "validCredentials": {
     "email": "aoniki2018@gmail.com",
-    "password": "Aytekinkaplan1184811@",
+    "password": "Aytekinkaplan@",
     "description": "Valid email and password combination. Expected outcome: Successful login."
   },
   "invalidEmail": {

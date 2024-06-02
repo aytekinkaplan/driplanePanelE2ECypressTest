@@ -4,7 +4,7 @@
   "devDependencies": {
     "@cypress/xpath": "^2.0.3",
     "@faker-js/faker": "^8.4.1",
-    "cypress": "^13.9.0",
+    "cypress": "^13.10.0",
     "cypress-xpath": "^2.0.1"
   },
   "scripts": {

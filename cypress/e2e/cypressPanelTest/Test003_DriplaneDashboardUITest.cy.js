@@ -19,7 +19,7 @@ describe('Login and Dashboard Functionality Tests', () => {
         dashboardPage = new DashboardPage();
 
         // Perform a login process using provided credentials
-        loginprocess("aoniki2018@gmail.com", "Aytekinkaplan1184811@", "projects");
+        loginprocess("aoniki2018@gmail.com", "Aytekinkaplan@", "projects");
 
         // Verify and click on the left corner button in the dashboard page
         dashboardPage.getLeftCornerButton().should('exist').click({force: true});

@@ -73,7 +73,7 @@ class SettingsPage {
         return cy.get('form.ng-dirty > :nth-child(4)');
     }
 
-    // This method returns the 'Add auto fill value' button element.
+    // This method returns the 'Add autofill value' button element.
     getAddAutoFillValue() {
         return cy.get(':nth-child(5) > .item-has-start-slot');
     }
@@ -105,7 +105,7 @@ class SettingsPage {
 
     // This method returns the alert message for key inclusion validation.
     getKeyCanOnlyIncludeALERT() {
-        return cy.get('.item-has-value > .ng-invalid > .input-bottom > .error-text');
+        return cy.get('body > app-root:nth-child(1) > ion-app:nth-child(1) > ion-modal:nth-child(2) > div:nth-child(1) > ion-content:nth-child(2) > form:nth-child(1) > ion-list:nth-child(1) > ion-item:nth-child(1) > ion-input:nth-child(1) > div:nth-child(2) > div:nth-child(2)');
     }
 
     // This method returns the value element.
@@ -115,12 +115,13 @@ class SettingsPage {
 
     // This method returns the value capsulated element.
     getVALUECapsulated() {
-        return cy.get('form.ng-invalid > .list-ios > .item.ion-valid > .sc-ion-input-ios-h > .input-wrapper')
+        return cy.get('.error-text.sc-ion-input-ios');
+
     }
 
     // This method returns the notification message to check the value.
     getPLEASECHECKVALUENotification() {
-        return cy.get('#ion-overlay-2 > div > ion-content > form > ion-list > ion-item:nth-child(2) > ion-input > div > div.error-text.sc-ion-input-ios');
+        return cy.get(':nth-child(2) > .ng-pristine > .input-bottom');
     }
 }
 

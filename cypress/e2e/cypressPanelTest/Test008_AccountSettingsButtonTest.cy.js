@@ -19,7 +19,7 @@ describe('Account Settings Button Test', () => {
 
     beforeEach('Perform login before each test', () => {
         cy.viewport(1280, 900);
-        loginprocess("aoniki2018@gmail.com", "Aytekinkaplan1184811@");
+        loginprocess("aoniki2018@gmail.com", "Aytekinkaplan@");
         cy.on("uncaught:exception", (err, runnable) => {
             return false;
         });

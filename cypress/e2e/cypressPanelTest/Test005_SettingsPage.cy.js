@@ -110,5 +110,6 @@ describe('Settings Page Navigation After Login', () => {
 
         // Verifying a notification message to check the value on the Settings page
         settingsPage.getPLEASECHECKVALUENotification().should('be.visible').and('have.text', 'Please check value');
+        console.log(settingsPage.getPLEASECHECKVALUENotification().textContent);
     });
 });

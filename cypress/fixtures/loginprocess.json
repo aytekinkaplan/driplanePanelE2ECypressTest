@@ -3,7 +3,7 @@
     {
       "scenario": "Kayıtlı kullanıcı email ve password girişi",
       "userEmail": "aoniki2018@gmail.com",
-      "password": "Aytekinkaplan1184811@"
+      "password": "Aytekinkaplan@"
     },
     {
       "scenario": "Kayıtlı olmayan kullanıcı email ve password girişi",

@@ -25,7 +25,7 @@ describe('Test Case Description', () => {
 
     it('Test Description', () => {
         cy.viewport(768, 1024);
-        loginprocess("aoniki2018@gmail.com", "Aytekinkaplan1184811@", "projects");
+        loginprocess("aoniki2018@gmail.com", "Aytekinkaplan@", "projects");
         rightUpperCornerSection.getUpperRightCornerButton().click();
     })
 });
